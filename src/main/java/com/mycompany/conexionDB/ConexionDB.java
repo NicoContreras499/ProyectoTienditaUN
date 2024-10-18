@@ -25,7 +25,7 @@ public class ConexionDB {
     public ConexionDB() {
         this.user = "root";
         this.password = "";
-        this.nameDataBase = "tiendita";
+        this.nameDataBase = "tienda";
         this.portMotor = "3306";
         this.servidor = "localhost";
         this.cadUrl = "jdbc:mysql://" + this.servidor + ":" + this.portMotor
